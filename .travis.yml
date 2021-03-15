@@ -1,4 +1,19 @@
+# ----------------------------------------------------------------------------
+#
+# Package             : python-stop-words
+# Source Repo         : https://github.com/Alir3z4/python-stop-words.git
+# Travis Job Link     : https://travis-ci.com/github/asellappen/python-stop-words/
+# Created travis.yml  : No
+# Maintainer          : Arumugam N S <asellappen@yahoo.com> / Priya Seth<sethp@us.ibm.com>
+#
+# Script License      : Apache License, Version 2 or later
+#
+# ----------------------------------------------------------------------------
 language: python
+arch:
+    - amd64
+    - ppc64le
+services:
 python:
     - "2.7"
     - "3.4"
